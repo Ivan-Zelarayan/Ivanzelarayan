@@ -8,7 +8,9 @@
     background-image: url(../assets/imagen\ fondo\ new.jpg);
     height: 100vh;
 }
-.container-fluid{
-    color: black;
-    text-decoration: dashed;
+.body {
+    background-color: green;
+}
+.bg-primary {
+    color: green;
 }
