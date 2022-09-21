@@ -4,11 +4,16 @@
  padding: 0;
  box-sizing: border-box;
 }
-.hero{
+.header__right{
     background-image: url(../assets/imagen\ fondo\ new.jpg);
     height: 100vh;
 }
 .container-fluid{
     color: black;
     text-decoration: dashed;
+}
+.hero_2 {
+    background-color: rgb(78, 108, 108);
+    height: 100vh;
+    font-weight: 20px;
 }

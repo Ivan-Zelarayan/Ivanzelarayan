@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(6, 4, 4);
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Kanit", sans-serif;
+}/*# sourceMappingURL=estilo.css.map */

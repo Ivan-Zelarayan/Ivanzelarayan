@@ -1,39 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link  rel="stylesheet" href="../CSS/style.css">
-    <title>Proyectos</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <title>Nosotros</title>
+    </head>
 <body>
-    <header>
-      <main>
-     <section>
+    <section class="hero">
         <header class="hero__header">
             <h4 class="logo">CANELI CONSTRUCCIONES</h4>
             <div class=header__right>
                  <p>100 Años Construyendo</p>
-                 <nav>
-                    <ul class="menu">
-                        <li class="menu__item">
-                            <a href="../index.html">Inicio</a>
-                            </li>
-                            <li class="menu__item">
-                            <a href="./nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="menu__item"> 
-                            <a href="./proyectos.html">Proyectos</a>
-                            </li>
-                            <li class="menu__item">
-                            <a href="./clientes.html">Clientes</a>
-                            </li>
-                            <li class="menu__item"> 
-                           <a href="./contacto.html">Contacto</a>
+                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark fs-4 text-light ">
+                    <div class="container-fluid ">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a class="navbar-brand fs-4 text-light" href="../index.html">Inicio</a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4 text-light">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                              </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./proyectos.html">Proyectos</a>
                           </li>
-                    </ul>
-                 </nav>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./pages/clientes.html">Clientes</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
             </div>
      </section>
      <header>
