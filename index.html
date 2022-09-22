@@ -6,25 +6,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../CSS/style.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <title>Nosotros</title>
+        <title>Inicio</title>
     </head>
 <body>
     <section class="hero">
         <header class="hero__header">
-            <div class=header__right>
+            <div class=header__right_index>
                  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fs-4 text-light ">
                     <div class="container-fluid ">
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand fs-4 text-light" href="../index.html">Inicio</a>
+                        <a class="navbar-brand fs-4 text-light " href="../index.html">Inicio</a>
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4 text-light">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                                <a class="nav-link active" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
                               </li>
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./proyectos.html">Proyectos</a>
+                            <a class="nav-link active" aria-current="page" href="./pages/proyectos.html">Proyectos</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="./pages/contacto.html">Contacto</a>
@@ -34,21 +34,19 @@
                           </li>
                         </ul>
                         <form class="d-flex" role="search">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
+                          <input class="form-control me-2" type="search" placeholder="Texto...." aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">BUSCAR</button>
                           
                         </form>
                       </div>
                     </div>
                   </nav>
                   <div>
-                     <h4 class="logo">CANELI CONSTRUCCIONES</h4>
+                     <h4 class="logo fs-2 fw-bold text-center ">CANELI CONSTRUCCIONES</h4>
+                     <h2 class="parrafo__1 text-center fs-4">100 años construyendo</h2>
                   </div>
                              </div>
         </header>
-        <div class="hero__img">
-            <img src="./assets/imagen4.jpg" alt="imagen">
-       </div>
         <div class="hero__main">
             <div class="hero__text">
                 <p>Somos una empresa constructora de sólida 
@@ -61,30 +59,42 @@
                     agregan valor a nuestros clientes.
                 </p>
             </div> 
-            
-            </div class="container">
-    </section>
-    <section class="grid">
-        <div class="grid__item grid__item1 tarjeta1">
-            <h5>Año de Comienzo</h5>
-            <h4>1950</h4>
+<section class="container">
+    <div class="row mt-5">
+        <div class="col-md-4">   
+            <div class="card">                
+                <img src="./assets/CARD6.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NUESTRAS OBRAS</h5>
+                  <p class="card-text">Nuestras obras son unicas y especiales por su dificultad</p>
+                  <a href="#" class="btn btn-dark">Ver mas</a>
+                </div>
+            </div>
         </div>
-        <div class="grid__item grid__item2 tarjeta2">
-            <h5>Obras Realizadas</h5>
-            <h4>500</h4>
+        <div class="col-md-4">   
+            <div class="card">                
+                <img src="./assets/fondo 2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NUESTROS CLIENTES</h5>
+                  <p class="card-text">Nuestros clientes son los siguientes y al igual que nuestro personal</p>
+                  <a href="#" class="btn btn-dark">Ver mas</a>
+                </div>
+            </div>
         </div>
-        <div class="grid__item grid__item3 tarjeta3">
-            <h5>M2 construidos</h5>
-            <h4>1.000.000</h4>
+        <div class="col-md-4">   
+            <div class="card">                
+                <img src="./assets/card14.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">NUESTROS PROYECTOS</h5>
+                  <p class="card-text">Nuestros proyectos propios son inversiones dentro de las mejores del pais</p>
+                  <a href="#" class="btn btn-dark">Ver mas</a>
+                </div>
+            </div>
         </div>
-        <div class="grid__item grid__item4 tarjeta4">
-            <h5>Nuestros Clientes</h5>
-            <h4>Varios</h4>
-        </div>
-       </div>         
-        </div>
-
-    </section>
+    </div> 
+</section>
+          
+           
 <section>
     <footer class="footer__1">
     <p>&copy Copyright Ivan Zelarayan</p>

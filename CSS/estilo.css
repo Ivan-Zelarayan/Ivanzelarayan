@@ -7,4 +7,21 @@
   font-size: 20px;
   text-decoration: none;
   font-family: "Kanit", sans-serif;
+}
+
+.header__right_index {
+  background-image: url(../assets/imagen\ fondo\ new.jpg);
+  height: 100vh;
+}
+
+.container-fluid {
+  color: black;
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+
+.hero_2 {
+  background-color: rgb(78, 108, 108);
+  height: 100vh;
+  font-weight: 20px;
 }/*# sourceMappingURL=estilo.css.map */
